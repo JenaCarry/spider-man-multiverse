@@ -1,0 +1,49 @@
+.navigator {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navigator ul {
+    display: grid;
+    gap: 3.75rem;
+    z-index: 1;
+}
+
+.navigator ul li a {
+    width: 2.875rem;
+    height: 2.875rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background-color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+    transform-origin: center;
+    will-change: transform;
+}
+
+.navigator::before {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+
+.navigator ul li a:hover,
+.navigator ul li a.active {
+    color: var(--primary-color);
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.navigator .navigator__icon {
+    position: absolute;
+    top: -20px;
+}

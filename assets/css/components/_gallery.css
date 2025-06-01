@@ -1,0 +1,14 @@
+.gallery {
+    padding-bottom: 3.25rem;
+}
+
+.gallery ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.gallery ul li a img {
+    border: 6px solid #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
