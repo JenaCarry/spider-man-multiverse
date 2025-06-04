@@ -56,6 +56,8 @@ body {
 }
 
 .s-wrapper .s-main-content .s-logo img {
+    width: 100%;
+    max-width: 700px;
     margin: 3.25rem 0 1.875rem 0;
 }
 
@@ -97,5 +99,21 @@ body {
 
 .s-spider-man-02-02 {
     background-image: url("../images/spiderman-andrew/movie-02/background.png");
+    background-size: cover;
+}
+
+/* TOM HOLLAND */
+.s-spider-man-03-01 {
+    background-image: url("../images/spiderman-tom/movie-01/background.png");
+    background-size: cover;
+}
+
+.s-spider-man-03-02 {
+    background-image: url("../images/spiderman-tom/movie-02/background.png");
+    background-size: cover;
+}
+
+.s-spider-man-03-03 {
+    background-image: url("../images/spiderman-tom/movie-03/background.png");
     background-size: cover;
 }
